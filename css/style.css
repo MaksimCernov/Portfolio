@@ -1,9 +1,9 @@
 @font-face {
   font-family: "Gilroy";
   src: local("Gilroy Medium"), local("Gilroy-Medium"),
-    url("/fonts/Gilroy-Medium.woff2") format("woff2"),
-    url("/fonts/Gilroy-Medium.woff") format("woff"),
-    url("/fonts/Gilroy-Medium.ttf") format("truetype");
+    url("fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("fonts/Gilroy-Medium.woff") format("woff"),
+    url("fonts/Gilroy-Medium.ttf") format("truetype");
   font-weight: medium;
   font-style: normal;
 }
@@ -11,9 +11,9 @@
 @font-face {
   font-family: "Gilroy";
   src: local("Gilroy Bold"), local("Gilroy-Bold"),
-    url("/fonts/Gilroy-Bold.woff2") format("woff2"),
-    url("/fonts/Gilroy-Bold.woff") format("woff"),
-    url("/fonts/Gilroy-Bold.ttf") format("truetype");
+    url("fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("fonts/Gilroy-Bold.woff") format("woff"),
+    url("fonts/Gilroy-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -88,7 +88,7 @@ body {
 .icon__ru-eng {
   height: 65px;
   width: 21px;
-  background-image: url(/img/ru-eng.svg);
+  background-image: url(img/ru-eng.svg);
 }
 .img {
   margin-top: 54px;
@@ -155,39 +155,39 @@ body {
 }
 
 .program_icon__adope {
-  background-image: url(/img/Adope.svg);
+  background-image: url(img/Adope.svg);
   width: 90px;
   height: 90px;
 }
 
 .skills__star-2 {
-  background-image: url(/img/star\ 2.svg);
+  background-image: url(img/star\ 2.svg);
   width: 166px;
   height: 26px;
 }
 .program_icon__html {
-  background-image: url(/img/HTML.svg);
+  background-image: url(img/HTML.svg);
   background-size: contain;
   width: 90px;
   height: 90px;
 }
 .skills__star-4 {
-  background-image: url(/img/star\ 4.svg);
+  background-image: url(img/star\ 4.svg);
   width: 166px;
   height: 26px;
 }
 .program_icon__figma {
-  background-image: url(/img/Figma.svg);
+  background-image: url(img/Figma.svg);
   width: 70px;
   height: 90px;
 }
 .skills__star-3 {
-  background-image: url(/img/star\ 3.svg);
+  background-image: url(img/star\ 3.svg);
   width: 166px;
   height: 26px;
 }
 .program_icon__css {
-  background-image: url(/img/CSS.svg);
+  background-image: url(img/CSS.svg);
   background-size: contain;
   width: 90px;
   height: 90px;
@@ -258,17 +258,17 @@ body {
 }
 
 .icon__contacts-inst {
-  background-image: url(/img/Insta.svg);
+  background-image: url(img/Insta.svg);
   margin-left: 62px;
 }
 .icon__contacts-telega {
-  background-image: url(/img/telegram.svg);
+  background-image: url(img/telegram.svg);
 }
 .icon__contacts-wk {
-  background-image: url(/img/WK.svg);
+  background-image: url(img/WK.svg);
 }
 .icon__contacts-telephone {
-  background-image: url(/img/telephone.svg);
+  background-image: url(img/telephone.svg);
 }
 .contacts__my-social-item,
 .contacts-my-social {
@@ -437,7 +437,7 @@ body {
   }
   .mobile-borger {
     margin-top: 15px;
-    background-image: url(/img/Burger\ 3.svg);
+    background-image: url(img/Burger\ 3.svg);
     width: 33px;
     height: 20px;
   }
