@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/js/pop-up.js">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="header__nav">
+          <div class="header-nav__list">
+            <a name="home" href="#home" class="header-nav__item">Home</a>
+          </div>
+          <div class="header-nav__list">
+            <a href="#about-me" class="header-nav__item">About me</a>
+          </div>
+          <div class="header-nav__list">
+            <a href="#skills" class="header-nav__item">Skills</a>
+          </div>
+          <div class="header-nav__list">
+            <a href="" class="header-nav__item">Portfolio</a>
+          </div>
+          <div class="header-nav__list">
+            <a href="#contacts" class="header-nav__item">Contacts</a>
+          </div>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="personal-page">
+          <div class="main-line">
+            <div class="mobile_colon_for_inf">
+              <h1 class="main-lane__name">Maksim Fisunenko</h1>
+              <p class="paragraf">
+                UX|UI designer <br />
+                24 years old, Feodosia
+              </p>
+            </div>
+            <div class="mobile-borger"></div>
+            <span class="icon icon__ru-eng"></span>
+          </div>
+          <picture>
+            <img class="img" src="/img/kepka (1) (1).jpg" alt="My Photo" />
+          </picture>
+        </section>
+      </main>
+    </div>
+    <a name="about-me" href="#about-me"></a>
+    <section class="about-me">
+      <div class="about-me__info">
+        <h1 name="about-me" class="about-me__info__bold">About me</h1>
+        <p class="paragraf">Hi, I'm Max – UX/UI designer from Feodosia.</p>
+        <p class="paragraf about-me-info__paragraf">
+          I'm interested in design and everything connected with it.
+        </p>
+        <p class="paragraf">I'm studying at courses "Web and mobile design</p>
+        <p class="paragraf about-me-info__paragraf">interfaces" in SkillBox.</p>
+        <p class="paragraf">Ready to implement excellent projects</p>
+        <p class="paragraf">with wonderful people.</p>
+      </div>
+    </section>
+    <a name="skills" href=""></a>
+    <div class="container">
+      <section class="Skills">
+        <div class="skills__main">
+          <h1 class="skills-h1">Skills</h1>
+          <p class="paragraf skills__paragraf">I work in such program as</p>
+        </div>
+        <div class="skills__programs">
+          <div class="skills_programs__item">
+            <span class="icon program_icon__adope"></span>
+            <p class="paragraf skills__program__paragraf">Adope Photoshop</p>
+            <span class="icon skills__star-2"></span>
+          </div>
+          <div class="skills_programs__item">
+            <span class="icon program_icon__html"></span>
+            <p class="paragraf skills__program__paragraf">HTML</p>
+            <span class="skills__star-4"></span>
+          </div>
+          <div class="skills_programs__item">
+            <span class="icon program_icon__figma"></span>
+            <p class="paragraf skills__program__paragraf">Figma</p>
+            <span class="skills__star-3"></span>
+          </div>
+          <div class="skills_programs__item">
+            <span class="icon program_icon__css"></span>
+            <p class="paragraf skills__program__paragraf">CSS</p>
+            <span class="skills__star-4"></span>
+          </div>
+        </div>
+      </section>
+    </div>
+    <a name="contacts" href=""></a>
+    <section class="Contacts">
+      <div class="contacts-main-info">
+        <h1 class="contscts-h1">Contacts</h1>
+        <p class="paragraf contacts-paragraf">
+          Want to know more or just chat? You are welcome!
+        </p>
+        <a id="open_pop_up" class="btn btn__black" href="##">Send massge</a>
+        <div  id="pop_up" class="pop_up ">
+          <div class="pop_up_container">
+            <div class="pop_up_body">
+              <h1 class="pop_up_h1">Связаться со мной</h1>
+              <p class="pop_up_p">
+                Пожалуйста используйте контакнтую форму ,что бы написать сообщение.
+              </p>
+              <div class="pop_together">
+                <form class="pop_up_form_cont" action="">
+                  <input
+                    class="pop_up_input_first"
+                    type="text"
+                    placeholder="Имя:"
+                  />
+                  <input
+                    class="pop_up_input_first"
+                    type="text"
+                    placeholder="Эмайл:"
+                  />
+                  <input
+                    class="pop_up_input_first"
+                    type="text"
+                    placeholder="Телефон:"
+                  />
+                </form>
+                <form action="">
+                  <input type="text" placeholder="Сообщение:" class="massage" />
+                </form>
+                <div class="pop_up_close"><a href="#">&#10006</a></div>
+              </div>
+              <div class="button__pop_up_form">
+                <a id="close_pop_up" class="btn_pop_up orange-btn" href="#">Закрыть</a>
+                <a class="btn_pop_up yelow-btn" href="#">Отправить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="/js/index.js"></script>
+      </div>
+      <div class="contacts__logo-my">
+        <span class="icon icon__contacts-inst"></span>
+        <span class="icon icon__contacts-telega"></span>
+        <span class="icon icon__contacts-wk"></span>
+        <span class="icon icon__contacts-telephone"></span>
+      </div>
+      <div class="contacts__my-social">
+        <p class="contacts__my-social-item">like me on</p>
+        <div class="container-my-socia">
+          <a
+            href="https://vk.com/away.php?to=https%3A%2F%2Fwww.instagram.com%2Fp%2FCdIAbIaNdad%2F%3Figshid%3DMDJmNzVkMjY%3D"
+            class="contacts-my-social"
+            target="_blank"
+            >Instagram</a
+          ><a
+            href="https://t.me/Grewashkin"
+            class="contacts-my-social"
+            target="_blank"
+            >Telegram</a
+          ><a
+            href="https://vk.com/id_1388"
+            class="contacts-my-social"
+            target="_blank"
+            >WK</a
+          ><a href="" class="contacts-my-social" target="_blank">Telephone</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
