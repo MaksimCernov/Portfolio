@@ -88,7 +88,7 @@ body {
 .icon__ru-eng {
   height: 65px;
   width: 21px;
-  background-image: url(/img/ru-eng.svg);
+  background-image: url(ru-eng.svg);
 }
 .img {
   margin-top: 54px;
