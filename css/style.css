@@ -88,7 +88,7 @@ body {
 .icon__ru-eng {
   height: 65px;
   width: 21px;
-  background: url(/img/ru-eng.svg) no-repeat;
+  background-image: url(/img/ru-eng.svg);
 }
 .img {
   margin-top: 54px;
@@ -258,7 +258,7 @@ body {
 }
 
 .icon__contacts-inst {
-  background-image: url(/insta-narash.svg);
+  background-image: url(/img/Insta.svg);
   margin-left: 62px;
 }
 .icon__contacts-telega {
