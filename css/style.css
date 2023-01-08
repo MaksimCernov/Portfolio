@@ -422,6 +422,7 @@ body {
     display: none;
   }
   .mobile-borger {
+    display: block;
     margin-top: 15px;
     width: 33px;
     height: 20px;
