@@ -154,39 +154,32 @@ body {
 }
 
 .program_icon__adope {
-  background-image: url(/img/Adope.svg);
   width: 90px;
   height: 90px;
 }
 
 .skills__star-2 {
-  background-image: url(/img/star2.svg);
   width: 166px;
   height: 26px;
 }
 .program_icon__html {
-  background-image: url(/img/HTML.svg);
   background-size: contain;
   width: 90px;
   height: 90px;
 }
 .skills__star-4 {
-  background-image: url(/img/star4.svg);
   width: 166px;
   height: 26px;
 }
 .program_icon__figma {
-  background-image: url(/img/Figma.svg);
   width: 70px;
   height: 90px;
 }
 .skills__star-3 {
-  background-image: url(/img/star3.svg);
   width: 166px;
   height: 26px;
 }
 .program_icon__css {
-  background-image: url(/img/CSS.svg);
   background-size: contain;
   width: 90px;
   height: 90px;
@@ -257,18 +250,9 @@ body {
 }
 
 .icon__contacts-inst {
-  background-image: url(/img/Insta.svg);
   margin-left: 62px;
 }
-.icon__contacts-telega {
-  background-image: url(/img/telegram.svg);
-}
-.icon__contacts-wk {
-  background-image: url(/img/WK.svg);
-}
-.icon__contacts-telephone {
-  background-image: url(/img/telephone.svg);
-}
+
 .contacts__my-social-item,
 .contacts-my-social {
   text-align: center;
@@ -410,6 +394,9 @@ body {
   box-shadow: 10px 10px 20px silver;
   background-color: rgba(241, 235, 88, 0.76);
 }
+.mobile-borger {
+  display: none;
+}
 
 @media (max-width: 481px) {
   .mobile_colon_for_inf {
@@ -436,7 +423,6 @@ body {
   }
   .mobile-borger {
     margin-top: 15px;
-    background-image: url(/img/Burger\ 3.svg);
     width: 33px;
     height: 20px;
   }
