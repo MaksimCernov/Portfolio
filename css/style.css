@@ -465,4 +465,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
   }
+  .icon__ru-eng {
+    display: none;
+  }
 }
