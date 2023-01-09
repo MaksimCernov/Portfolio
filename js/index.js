@@ -19,3 +19,9 @@ window.addEventListener("DOMContentLoaded", function () {
       document.querySelector("#pop_up").classList.toggle("active");
     });
 });
+
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelector("#burger").addEventListener("click", function () {
+    document.querySelector("#nav").classList.toggle("is-active");
+  });
+});
