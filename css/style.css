@@ -400,6 +400,61 @@ body {
 }
 
 @media (max-width: 576px) {
+  /* Pop-up */
+
+  .pop_up_body {
+    padding: 18px 30px 40px 30px;
+    width: 300px;
+    height: 600px;
+  }
+  .pop_together {
+    flex-direction: column;
+  }
+  .pop_up_h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .pop_up_p {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .pop_up_input_first {
+    font-size: 12px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 250px;
+  }
+  .massage {
+    border: 1px solid silver;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 250px;
+    height: 150px;
+    color: black;
+    background-color: #e0e0e0;
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+  .button__pop_up_form {
+    flex-direction: column;
+  }
+  .btn_pop_up {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid black;
+    cursor: pointer;
+    user-select: none;
+  }
+
   .mobile_colon_for_inf {
     display: block;
   }
