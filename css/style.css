@@ -404,6 +404,9 @@ body {
 
 @media (max-width: 576px) {
   /* Pop-up */
+  body {
+    width: 100%;
+  }
 
   .pop_up_body {
     padding: 18px 30px 40px 30px;
@@ -481,7 +484,7 @@ body {
     border-radius: 5px;
     border: 2px solid silver;
     transition: transform 0.2s ease-in-out;
-    transform: translateX(500%);
+    transform: translateY(-200%);
   }
 
   .header-nav__item {
