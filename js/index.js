@@ -1,12 +1,13 @@
-const openPopUp = document.getElementById("open_pop_up");
-const closePopUp = document.getElementById("close_pop_up");
-const popUp = document.getElementById("pop_up");
-
-openPopUp.addEventListener("click", function (e) {
-  e.preventDefault();
-  popUp.classList.add("active");
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelector("#open_pop_up").addEventListener("click", function () {
+    document.querySelector("#pop_up").classList.toggle("active");
+  });
 });
 
-closePopUp.addEventListener("click", () => {
-  popUp.classList.remove("active");
+window.addEventListener("DOMContentLoaded", function () {
+  document
+    .querySelector("#close_pop_up")
+    .addEventListener("click", function () {
+      document.querySelector("#pop_up").classList.toggle("active");
+    });
 });
