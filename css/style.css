@@ -84,6 +84,13 @@ body {
   display: block;
   background-repeat: no-repeat;
 }
+.icon:hover {
+  box-shadow: 10px 10px 20px silver;
+  background-color: rgba(246, 246, 246, 1);
+}
+.bck-color:hover {
+  background-color: rgba(246, 246, 246, 1);
+}
 
 .icon__ru-eng {
   height: 65px;
@@ -511,7 +518,6 @@ body {
     padding-bottom: 50px;
   }
   .container {
-    width: 100%;
     margin-left: 26px;
     margin-right: 30px;
   }
